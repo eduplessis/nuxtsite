@@ -14,10 +14,9 @@
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.3.1",
-    "netlify-cms": "^1.6.0",
-    "nuxt": "^1.4.0",
-    "nuxt-netlify-cms": "^3.0.0",
-    "nuxtent": "^1.4.1"
+    "nuxt": "latest",
+    "nuxt-netlify-cms": "latest",
+    "nuxtent": "latest"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.1",
