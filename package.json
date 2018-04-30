@@ -1,30 +1,18 @@
 {
-  "name": "eduplessis.com",
+  "name": "nuxt-netlify-cms-module-example",
   "version": "1.0.0",
-  "description": "Nuxt.js project",
-  "author": "Edouard Duplessis <eduplessis@gmail.com>",
-  "private": true,
-  "scripts": {
-    "dev": "nuxt",
-    "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate",
-    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
-    "precommit": "npm run lint"
-  },
+  "description": "Easy Netlify CMS integration with nuxt.js example",
   "dependencies": {
-    "@nuxtjs/axios": "^5.3.1",
+    "@nuxtjs/axios": "^4.3.0",
+    "netlify-cms": "^1.7.0",
     "nuxt": "latest",
     "nuxt-netlify-cms": "latest",
     "nuxtent": "latest"
   },
-  "devDependencies": {
-    "babel-eslint": "^8.2.1",
-    "eslint": "^4.15.0",
-    "eslint-friendly-formatter": "^3.0.0",
-    "eslint-loader": "^1.7.1",
-    "eslint-plugin-vue": "^4.0.0",
-    "netlify-cms": "^1.7.0",
-    "nuxt-netlify-cms": "^3.0.1"
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
   }
 }
