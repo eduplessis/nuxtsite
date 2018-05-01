@@ -1,16 +1,16 @@
 <template>
 <div>
-    <h1>{{ post.title }}</h1>
+    <h1 class="title">{{ post.title }}</h1>
 		<div v-html="post.body" />
 </div>
 </template>
 
 <script>
 export default {
-  async asyncData ({ app, route }) {
+  async asyncData({ app, route }) {
     return {
-      post: await app.$content('/').get(route.path)
-    }
+      post: await app.$content("/").get(route.path)
+    };
   }
-}
+};
 </script>
