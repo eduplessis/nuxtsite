@@ -1,6 +1,7 @@
 <template>
 <div>
     <h1 class="title">{{ post.title }}</h1>
+    <img :src="post.image" alt="">
 		<div v-html="post.body" />
 </div>
 </template>
@@ -10,6 +11,11 @@ export default {
   async asyncData({ app, route }) {
     return {
       post: await app.$content("/").get(route.path)
+    };
+  },
+  head() {
+    return {
+      title: this.post.title
     };
   }
 };
