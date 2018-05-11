@@ -20,6 +20,11 @@ module.exports = {
       { hid: 'description', name: 'description', content: 'Meta description' }
     ],
     link: [
+    ],
+    script: [
+      {
+        src: "https://identity.netlify.com/v1/netlify-identity-widget.js"
+      }
     ]
   },
   css: [
